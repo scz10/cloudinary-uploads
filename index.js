@@ -10,9 +10,9 @@ const upload = multer({ dest: 'uploads/' })
 
 const cloudinary = require('cloudinary');
 cloudinary.config({
-cloud_name: 'do1srodkm',
-api_key: '755929298436483',
-api_secret: 'cFAJh9jmcsry4jrq4JdDnIP8cYI'
+cloud_name: 'cloudname',
+api_key: 'apikey',
+api_secret: 'apisecret'
 });
 
 
